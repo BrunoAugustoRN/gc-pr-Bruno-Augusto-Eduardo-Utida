@@ -1,8 +1,19 @@
+"""Operações básicas com números."""
+
+
+def somar(a, b):
+    return a + b
+
+
 def subtrair(a, b):
-    return a - b  # Corrigido: era b - a
+    return a - b
 
 
 def media(numeros):
     if not numeros:
         return 0
-    return sum(numeros) / len(numeros)  # Corrigido: era dividido por 2
+    return sum(numeros) / len(numeros)
+
+
+def multiplicar(a, b):
+    return a * b

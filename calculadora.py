@@ -6,8 +6,14 @@ def somar(a, b):
 
 
 def subtrair(a, b):
-    return b - a
+    return a - b
 
 
 def media(numeros):
-    return sum(numeros) / 2
+    if not numeros:
+        return 0
+    return sum(numeros) / len(numeros)
+
+
+def multiplicar(a, b):
+    return a * b
